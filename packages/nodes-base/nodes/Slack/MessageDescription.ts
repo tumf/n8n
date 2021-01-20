@@ -48,10 +48,13 @@ export const messageFields = [
 	/* -------------------------------------------------------------------------- */
 	{
 		displayName: 'Channel',
-		name: 'channel',
-		type: 'string',
+		name: 'channelId',
+		type: 'options',
+		typeOptions: {
+			loadOptionsMethod: 'getChannels',
+		},
 		default: '',
-		placeholder: 'Channel name',
+		placeholder: 'aChannel name',
 		displayOptions: {
 			show: {
 				operation: [
