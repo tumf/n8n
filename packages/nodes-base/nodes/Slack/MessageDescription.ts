@@ -1647,7 +1647,7 @@ export const messageFields = [
 		typeOptions: {
 			loadOptionsMethod: 'getChannels',
 		},
-		//required: true,
+		required: true,
 		default: '',
 		displayOptions: {
 			show: {
@@ -1665,7 +1665,7 @@ export const messageFields = [
 		displayName: 'TS',
 		name: 'messageTs',
 		type: 'string',
-		//required: true,
+		required: true,
 		default: '',
 		displayOptions: {
 			show: {
