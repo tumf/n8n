@@ -97,7 +97,7 @@ export const messageFields = [
 			loadOptionsMethod: 'getChannels',
 		},
 		default: '',
-		placeholder: 'aChannel name',
+		placeholder: 'Channel name',
 		displayOptions: {
 			show: {
 				operation: [
